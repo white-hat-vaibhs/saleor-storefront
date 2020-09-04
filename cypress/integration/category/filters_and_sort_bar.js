@@ -6,7 +6,7 @@ describe("Category view - filtering and sorting", () => {
     cy.server();
     cy.route("POST", `${Cypress.env("API_URI")}`).as("graphqlQuery");
 
-    cy.visit("/category/accessories/7/");
+    cy.visit("/category/accessories/20/");
   });
 
   it("should show filter sidebar after clicking on filter menu", () => {
