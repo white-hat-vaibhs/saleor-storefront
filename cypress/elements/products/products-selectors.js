@@ -1,5 +1,4 @@
 export const PRODUCTS_SELECTORS = {
-  product_list: ".product-list-item",
   first_selected_product_name: ".product-description >h3",
   variantPicker: ".product-description__variant-picker",
   attributeOptions: "[data-test='attributeOption']",

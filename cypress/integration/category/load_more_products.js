@@ -5,7 +5,7 @@ describe("Product list view", () => {
     cy.server();
     cy.route("POST", `${Cypress.env("API_URI")}`).as("graphqlQuery");
 
-    cy.visit("/category/accessories/20/");
+    cy.visit("/category/juices/14/");
   });
 
   it("should load more products when clicking on MORE button", () => {
